@@ -1,4 +1,4 @@
-#Steps for configuring nfs backend for glance and cinder:
+#### Steps for configuring nfs backend for glance and cinder:
 
 * mkdir /home/cinder
 * mkdir /home/glance
