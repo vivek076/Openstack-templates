@@ -1,0 +1,12 @@
+parameter_defaults:
+  CinderEnableIscsiBackend: false
+  CinderEnableRbdBackend: false
+  CinderEnableNfsBackend: true
+  NovaEnableRbdBackend: false
+  GlanceBackend: file
+  CinderNfsMountOptions: 'nosharecache'
+  CinderNfsServers: '192.168.122.1:/home/cinder'
+  GlanceNfsEnabled: true
+  GlanceNfsShare: '192.168.122.1:/home/glance'
+  GlanceNfsOptions: 'intr,context=system_u:object_r:glance_var_lib_t:s0'
+
