@@ -7,8 +7,8 @@
 * chmod 757 glance/
 * chmod 777 cinder/
 * cat /etc/exports
-    /home/cinder 	*(rw,sync)
-    /home/glance 	*(rw,sync)
+  - /home/cinder 	*(rw,sync)
+  - /home/glance 	*(rw,sync)
 * systemctl restart nfs-server
 * systemctl restart nfs
 * exportfs
