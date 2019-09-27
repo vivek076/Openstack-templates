@@ -2,10 +2,10 @@
 
 * mkdir /home/cinder
 * mkdir /home/glance
-* chown 42407:42407 cinder
-* chown 42415:42415 glance
-* chmod 757 glance/
-* chmod 777 cinder/
+* chown 42407:42407 /home/cinder
+* chown 42415:42415 /home/glance
+* chmod 757 /home/glance/
+* chmod 777 /home/cinder/
 * cat /etc/exports
   - /home/cinder 	*(rw,sync)
   - /home/glance 	*(rw,sync)
